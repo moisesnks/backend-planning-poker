@@ -1,4 +1,4 @@
-# Aplicación de Servidor Node.js con Express, Socket.IO y MongoDB
+# Planning Poker + MongoDB + SocketIo
 
 Esta es una aplicación de servidor Node.js que utiliza Express, Socket.IO y MongoDB. Está diseñada para gestionar salas de chat donde los usuarios pueden unirse, enviar mensajes y votar sobre temas. A continuación, se presenta una descripción general del código:
 
