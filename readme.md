@@ -50,28 +50,6 @@ Recupera el voto de un usuario.
 
 Calcula el voto promedio, mínimo y máximo, y la proporción de votos que coincidieron con el promedio.
 
-## Archivo `vercel.json`
-
-Para desplegar tu backend en Vercel, usa la siguiente configuración en `vercel.json`:
-
-```json
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.js"
-    }
-  ]
-}
-```
-
 ## Despliegue
 
 1. **Configura tu entorno**: Asegúrate de que tu base de datos MongoDB esté configurada y accesible.
